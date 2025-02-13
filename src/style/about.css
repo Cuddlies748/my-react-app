@@ -1,0 +1,75 @@
+/* Начальные стили для блока */
+.about {
+    position: relative;
+    padding: 50px 0;
+    text-align: center;
+    width: 100%;
+    height: 900px;
+   
+  }
+  .about {
+    background-image: url('../images/p1.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+
+  
+  .content_about {
+    position: relative;
+    z-index: 1; /* Контент поверх фона */
+   
+    height: 400px;
+   
+    color: white;
+    opacity: 0.7;
+    text-align: center;
+    top: 18%;
+    
+    
+    cursor: pointer;
+  }
+  .ab_h2 {
+   font-weight: 700;
+   font-size: 110px;
+  }
+ 
+  .ab_p {
+   color: rgb(0, 0, 0);
+   font-weight: 700;
+   font-size: 80px;
+   text-decoration:none ;
+  }
+  
+  .ab_p:after {
+    content: "";
+    
+      display: block;
+      position: absolute;
+      right: 0;
+      bottom: -3px;
+      top: 300px;
+      left: 540px;
+      width: 0;
+      height: 2px; /* Высота линии */
+      background-color: rgb(255, 255, 255); /* Цвет подчеркивания при исчезании линии*/
+      transition: width 1s; /* Время эффекта */
+  }
+  
+  .ab_p:hover:after {
+    content: "";
+      width: 400px;
+      display: block;
+      position: absolute;
+      
+     
+      bottom: -3px;
+      height: 2px; /* Высота линии */
+      background-color: rgb(255, 255, 255); /* Цвет подчеркивания при появлении линии*/
+      transition: width 1s;  /* Время эффекта */
+  }
+
+  
