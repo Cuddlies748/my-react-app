@@ -22,7 +22,7 @@
 @media (max-width:480px){
   .Ican{
     margin-top: 200px;
-    margin-left: 11px;
+    margin-left: 20px;
     width: 330px;
     display: grid; 
     grid-template-columns: repeat(1, 4fr);
@@ -50,7 +50,7 @@
 @media(max-width:480px){
   .I_can{
     position: absolute;
-    top: 970px;
+    top: 1060px;
     left: 75px;
     font-size: 91px;
   }
