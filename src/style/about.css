@@ -18,7 +18,7 @@
 @media(max-width:480px){
   .about{
     background-image: none;
-    width: 480px;
+    width: 360px;
     height: 260px;
   }
   
@@ -38,6 +38,12 @@
     
     
     cursor: pointer;
+  }
+  @media(max-width:480px){
+    .content_about{
+      width: 360px;
+      height: 213px;
+    }
   }
   .ab_h2 {
    font-weight: 700;
