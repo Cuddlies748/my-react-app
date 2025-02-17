@@ -7,7 +7,11 @@
     overflow: hidden;
     font-style: normal;
 }
-
+@media(max-width:480px){
+  .WorkingPartners{
+    margin-top: 1170px;
+  }
+}
 body {
     overflow-x: hidden;
     margin: 0;
@@ -28,7 +32,6 @@ body {
     animation: moveRight 15s linear infinite;
     width: calc(630px * 8); /* Учитываем ширину блоков + gap */
   }
-  
   .box_work_part {
     width: 600px;
     height: 400px;
@@ -44,6 +47,12 @@ body {
     opacity: 0.5;
     transition: opacity 0.5s ease; /* Делаем плавный переход */
   }
+  @media(max-width:480px){
+  .box_work_part{
+    width: 388px;
+    height: 360px;
+  }
+  }  
   
   .box_work_part:hover {
     opacity: 1; /* Убираем полупрозрачность при наведении */
@@ -62,5 +71,10 @@ body {
     font-size: 50px;
     cursor: pointer;
     -webkit-box-reflect: below 5px linear-gradient(to bottom, rgba(255, 255, 255, 0.3), transparent);
+  }
+  @media(max-width:480px){
+    .Working_h2{
+      font-size: 36px;
+    }
   }
   

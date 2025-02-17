@@ -15,7 +15,14 @@
     height: 100vh;
     width: 100%;
 }
-
+@media(max-width:480px){
+  .about{
+    background-image: none;
+    width: 480px;
+    height: 260px;
+  }
+  
+}
 
   
   .content_about {
@@ -36,13 +43,22 @@
    font-weight: 700;
    font-size: 110px;
   }
- 
   .ab_p {
    color: rgb(0, 0, 0);
    font-weight: 700;
    font-size: 80px;
    text-decoration:none ;
   }
+  @media(max-width:480px){
+    .ab_h2{
+      font-size: 60px;
+    }
+    .ab_p{
+      font-size: 50px;
+      color: yellow;
+    }
+  }
+ 
   
   .ab_p:after {
     content: "";
