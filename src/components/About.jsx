@@ -11,7 +11,7 @@ const About = () => {
         <h2 className='ab_h2'>
        About me
         </h2>
-        <a className='ab_p' href='#!'>Read:</a>
+        <a className='ab_p' href='https://cuddlies748.github.io/my-about-react-app/'>Read:</a>
       </div>
     </div>
   );
