@@ -2,10 +2,10 @@ import React from 'react'
 import '../style/working.css'
 function Working() {
   return (
-    <div className='WorkingPartners'>
-      <h2 className='Working_h2'>Working Partners</h2>
-       <div class="wrapper_work_part">
-  <div class="track">
+    <div data-ignore-cursor="true" className='WorkingPartners'>
+      <h2 data-ignore-cursor="true" className='Working_h2'>Working Partners</h2>
+       <div data-ignore-cursor="true" class="wrapper_work_part">
+  <div data-ignore-cursor="true" class="track">
     <div class="box_work_part">Salim
 
     </div>

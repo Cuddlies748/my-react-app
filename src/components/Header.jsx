@@ -33,11 +33,11 @@ function Header() {
   }, []);
 
   return (
-    <div className="header">
-      <div className="stars-container" ref={starsContainerRef}></div>
-      <div className="content">
-        <h1 className="cont_h1">Эшбоев Жасур</h1>
-        <p className="cont_p">PROGRAMMER - STUDENT</p>
+    <div data-ignore-cursor="true" className="header">
+      <div data-ignore-cursor="true" className="stars-container" ref={starsContainerRef}></div>
+      <div data-ignore-cursor="true" className="content">
+        <h1 data-ignore-cursor="true" className="cont_h1">Эшбоев Жасур</h1>
+        <p data-ignore-cursor="true" className="cont_p">PROGRAMMER - STUDENT</p>
       </div>
     </div>
   );

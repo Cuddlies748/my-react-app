@@ -1,0 +1,25 @@
+* {
+    cursor: none; /* Скрываем стандартный курсор */
+  }
+  .custom-cursor {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    transition: width 0.3s ease, height 0.3s ease, background-color 0.3s ease, border 0.3s ease;
+    will-change: transform;
+  }
+  
+  .custom-cursor.cursor-hover {
+    width: 50px; /* Увеличение */
+    height: 50px;
+    background-color: transparent; /* Прозрачность */
+    border: 2px solid white; /* Бордер */
+  }
+  

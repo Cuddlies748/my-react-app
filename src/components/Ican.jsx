@@ -2,8 +2,8 @@ import React from 'react'
 import '../style/ican.css'
 function Ican() {
   return (
-    <div className='Ican'>
-      <h2 className='I_can'>I can
+    <div data-ignore-cursor="true" className='Ican'>
+      <h2 data-ignore-cursor="true" className='I_can'>I can
 
       </h2>
       <div className="skill_div">

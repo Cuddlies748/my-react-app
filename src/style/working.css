@@ -39,7 +39,7 @@ body {
     background: rgb(43, 6, 255);
     border: 7px solid rgb(2, 2, 153);
     display: flex;
-    cursor: pointer;
+    
     justify-content: center;
     align-items: center;
     font-size: 30px;
@@ -71,7 +71,7 @@ body {
   .Working_h2{
     color: white;
     font-size: 50px;
-    cursor: pointer;
+    
     -webkit-box-reflect: below 5px linear-gradient(to bottom, rgba(255, 255, 255, 0.3), transparent);
   }
   @media(max-width:480px){
