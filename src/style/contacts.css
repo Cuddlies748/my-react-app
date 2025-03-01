@@ -57,7 +57,7 @@
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
 }
-@media(max-width:360px){
+@media(max-width:480px){
     .git_hub{
         display: grid;
         grid-template-columns: repeat(1,2fr);
@@ -84,7 +84,7 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
-@media(max-width:360px){
+@media(max-width:480px){
     .git_hub_s_m{
         display: grid;
         grid-template-columns: repeat(1,3fr);
@@ -102,7 +102,7 @@
     transition: 0.5s;
    
 }
-@media(max-width:360px){
+@media(max-width:480px){
     .git_hub_h4{
         font-size: 40px;
     }
