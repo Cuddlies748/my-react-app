@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
     const checkScreenSize = () => {
-      setShowComponent(window.innerWidth > 360); 
+      setShowComponent(window.innerWidth > 480); 
     };
 
     checkScreenSize(); 
