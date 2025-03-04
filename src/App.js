@@ -7,12 +7,17 @@ import Header from "./components/Header";
 import Ican from "./components/Ican";
 import Working from "./components/Working";
 import CustomCursor from "./components/CustomCursor";
+import AOS from "aos";
 
 function App() {
   const scrollRef = useRef(null);
   const [showComponent, setShowComponent] = useState(window.innerWidth > 480);
   const locoScrollRef = useRef(null);
   const [bgColor, setBgColor] = useState("#ffffff"); // начальный фон
+
+  useEffect(() => {
+    AOS.init({ duration: 1000 }); // Инициализация AOS с анимацией 1 секунда
+  }, []);
 
   useEffect(() => {
     const checkScreenSize = () => {

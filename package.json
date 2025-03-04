@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://Cuddlies748.github.io/my-react-app",
   "dependencies": {
+    "aos": "^2.3.4",
     "cra-template": "1.2.0",
     "gsap": "^3.12.7",
     "locomotive-scroll": "^4.1.4",
