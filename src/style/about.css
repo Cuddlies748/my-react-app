@@ -1,4 +1,7 @@
 /* Начальные стили для блока */
+body{
+  overflow-x: hidden; 
+}
 .about {
     position: relative;
     padding: 50px 0;
@@ -8,15 +11,38 @@
    
   }
   .about {
-    /* background-image: url('../images/p1.png');
+    /* background-image: url('https://avatars.mds.yandex.net/i?id=807de12fc98fd2e9033a602a31e8df9d81cfb8be-5424908-images-thumbs&n=13');
     background-size: cover;
     background-position: center;
     background-attachment: fixed; */
     height: 100vh;
     width: 100%;
+    
+   
+   
 }
+.back_about_img{
+  content: "";
+  position: fixed;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://i.pinimg.com/originals/2f/3d/f4/2f3df47bd6bef881682794dc26c8297d.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  box-shadow: inset 0 0 150px 50px rgba(0, 0, 0, 1);
+  filter: brightness(80%);
+}
+
+
 @media(max-width:480px){
   .about{
+    background-image: none;
+    width: 360px;
+    height: 260px;
+  }
+  .back_about_img{
     background-image: none;
     width: 360px;
     height: 260px;

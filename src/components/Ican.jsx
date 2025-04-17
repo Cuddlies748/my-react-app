@@ -31,7 +31,7 @@ function Ican() {
 
       </div>
       <div className="skill_div">
-        <h2 className='skill_d_h2'>Не Сосать</h2>
+        <h2 className='skill_d_h2'>UI/UX</h2>
         <p className='skill_d_p'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia praesentium illo consequuntur ea beatae atque nulla quidem dignissimos quod rem sapiente ex cumque ullam, debitis eligendi neque, quia ut alias minus? Atque explicabo laboriosam quo pariatur illum inventore, ipsam sed incidunt recusandae quaerat architecto in ad, amet facilis odio dolorum.
             no MORE

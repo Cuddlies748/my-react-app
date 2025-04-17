@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import "../style/header.css";
 
 function Header() {
+  
   const starsContainerRef = useRef(null);
 
   useEffect(() => {

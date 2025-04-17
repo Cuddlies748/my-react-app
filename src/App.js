@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import LocomotiveScroll from "locomotive-scroll";
+
 import "./App.css";
 import About from "./components/About";
 import Contact from "./components/Contact";
@@ -8,6 +9,7 @@ import Ican from "./components/Ican";
 import Working from "./components/Working";
 import CustomCursor from "./components/CustomCursor";
 import AOS from "aos";
+
 
 function App() {
   const scrollRef = useRef(null);
@@ -62,11 +64,13 @@ function App() {
       data-scroll-container
       style={{ backgroundColor: bgColor, transition: "background 0.5s ease" }}
     >
+      
       <Header />
       <About />
       <Ican />
       <Working />
       <Contact />
+      
       {showComponent && <CustomCursor />}
     </div>
   );
